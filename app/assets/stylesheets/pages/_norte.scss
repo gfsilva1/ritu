@@ -43,7 +43,7 @@ $gradient-end :$green;
         flex: 1 1 0;
         &:last-child:after {
           content: '';
-          position: relative;
+          position: right;
           top: 0;
           width: 100%;
           bottom: 0;

@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
-  get 'welcome', to: 'welcome#welcome'
-  get 'regioes', to: 'regioes#regioes'
+  get 'norte', to: 'norte#norte'
+  get 'para', to: 'para#para'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
