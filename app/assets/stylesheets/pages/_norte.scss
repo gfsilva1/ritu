@@ -1,5 +1,5 @@
 $gradient-start :$light-gray;
-$gradient-end :$green;
+$gradient-end :$white;
 
 .menu{
   background-image: linear-gradient(to right, $gradient-start 50%, $gradient-end 120%);
