@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   get 'sudeste', to: 'sudeste#sudeste'
   get 'sul', to: 'sul#sul'
   get 'para', to: 'para#para'
+  get 'ritmo1acre', to: 'ritmo1acre#ritmo1acre'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
