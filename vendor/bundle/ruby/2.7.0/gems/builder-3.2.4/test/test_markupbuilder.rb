@@ -141,7 +141,7 @@ class TestMarkup < Builder::Test
   def test_reference_local_vars
     n = 3
     @xml.ol { |x| n.times { x.li(n) } }
-    assert_equal "<ol><li>3</li><li>3</li><li>3</li></ol>", @xml.target!
+    assert_equal "<ul><li>3</li><li>3</li><li>3</li></ul>", @xml.target!
   end
 
   def test_reference_methods
@@ -441,7 +441,7 @@ class TestIndentedXmlMarkup < Builder::Test
 
   def test_one_level
     @xml.ol { |x| x.li "text" }
-    assert_equal "<ol>\n  <li>text</li>\n</ol>\n", @xml.target!
+    assert_equal "<ul>\n  <li>text</li>\n</ul>\n", @xml.target!
   end
 
   def test_two_levels
@@ -449,7 +449,7 @@ class TestIndentedXmlMarkup < Builder::Test
       x.ol { x.li "text" }
       x.br
     }
-    assert_equal "<p>\n  <ol>\n    <li>text</li>\n  </ol>\n  <br/>\n</p>\n", @xml.target!
+    assert_equal "<p>\n  <ul>\n    <li>text</li>\n  </ul>\n  <br/>\n</p>\n", @xml.target!
   end
 
   def test_initial_level

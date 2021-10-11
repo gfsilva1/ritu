@@ -265,18 +265,18 @@ module Rack
                       <% frame.pre_context.each { |line| %>
                       <li onclick="toggle('pre<%=h frame.object_id %>', 'post<%=h frame.object_id %>')"><%=h line %></li>
                       <% } %>
-                    </ol>
+                    </ul>
                     <% end %>
 
                   <ol start="<%=h frame.lineno %>" class="context-line">
-                    <li onclick="toggle('pre<%=h frame.object_id %>', 'post<%=h frame.object_id %>')"><%=h frame.context_line %><span>...</span></li></ol>
+                    <li onclick="toggle('pre<%=h frame.object_id %>', 'post<%=h frame.object_id %>')"><%=h frame.context_line %><span>...</span></li></ul>
 
                     <% if frame.post_context %>
                     <ol start='<%=h frame.lineno+1 %>' class="post-context" id="post<%=h frame.object_id %>">
                       <% frame.post_context.each { |line| %>
                       <li onclick="toggle('pre<%=h frame.object_id %>', 'post<%=h frame.object_id %>')"><%=h line %></li>
                       <% } %>
-                    </ol>
+                    </ul>
                     <% end %>
                 </div>
                 <% end %>

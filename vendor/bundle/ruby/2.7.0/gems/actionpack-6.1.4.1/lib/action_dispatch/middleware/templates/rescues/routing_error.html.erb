@@ -6,11 +6,11 @@
   <% unless @exception.failures.empty? %>
     <p>
       <h2>Failure reasons:</h2>
-      <ol>
+      <ul>
       <% @exception.failures.each do |route, reason| %>
         <li><code><%= route.inspect.delete('\\') %></code> failed because <%= reason.downcase %></li>
       <% end %>
-      </ol>
+      </ul>
     </p>
   <% end %>
 

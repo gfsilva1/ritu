@@ -463,7 +463,7 @@ if (typeof prettyPrint === "undefined") {
 
       f(i.length);
       j && n.push("</span>");
-      g && n.push("</li></ol>");
+      g && n.push("</li></ul>");
       b.a = n.join("");
     }
 
