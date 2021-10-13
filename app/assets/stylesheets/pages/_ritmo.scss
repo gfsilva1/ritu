@@ -1,14 +1,18 @@
+.ritmo {
+  display: flex;
+  align-items:flex-end;
+}
 
 nav
 {
-    position: relative;
-    top: 50%;
+    position: absolute;
+    top: 15%;
     right: 0;
     left: 0;
     width: 319px;
-    display: table;
-    margin-left: 240px;
-    margin-bottom: 0px;
+    display: flex;
+    margin-left: 140px;
+    margin-bottom: 150px;
 
     transform: translateY(-50%);
 }
@@ -17,9 +21,9 @@ nav a
 {
     position: relative;
     width: 33.333%;
-    display: table-cell;
+    display: flex;
     text-align: center;
-    color: $green;
+    color: red;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -91,4 +95,17 @@ nav a:nth-child(3):hover ~ #indicator
 {
     left: 70%;
     background: linear-gradient(130deg, white, red);
+}
+
+
+#car {
+  display: flex;
+  align-items: flex-end;
+  height: 50vh;
+
+
+  h1 {
+  font-size: 20px;
+  }
+
 }

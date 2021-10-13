@@ -1,6 +1,10 @@
 $gradient-start :$light-gray;
 $gradient-end :$white;
 
+.cotainer{
+  margin-left: 30px;
+}
+
 .menu{
   background-image: none;
 
@@ -11,7 +15,7 @@ $gradient-end :$white;
 
 
   a{
-    color:$green;
+    color:black;
     text-decoration: none;
     font-weight: 300;
     &:focus,
@@ -597,3 +601,10 @@ $gradient-end :$white;
     #svg-map a:hover path{ fill:#003399 !important }
     #svg-map .circle { fill:#66ccff }
     #svg-map a:hover .circle { fill:#003399 !important; cursor:pointer }
+
+  //acre
+
+  .cont {
+  width: 400px;
+  margin: 0 auto;
+}

@@ -12,9 +12,9 @@ $gradient-end :$white;
 
 
   a{
-    color:$green;
-    text-decoration: none;
-    font-weight: 300;
+    color:black;
+    text-decoration: solid;
+    font-weight: 700;
     &:focus,
     &:focus-within{
       outline:none;
