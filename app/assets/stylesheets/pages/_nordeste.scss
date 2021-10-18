@@ -8,13 +8,13 @@ $gradient-end :$white;
   border-right-color:red;
   border-left-style: ridge;
   border-left-color:red;
-
+  border-top-right-radius: 60%;
 
 
   a{
     color:black;
     text-decoration: solid;
-    font-weight: 700;
+    font-weight: 500;
     &:focus,
     &:focus-within{
       outline:none;
