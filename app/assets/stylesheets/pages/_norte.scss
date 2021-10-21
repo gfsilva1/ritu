@@ -604,8 +604,9 @@ $gradient-end :$white;
   }
   h3 {
     color:red;
-    font-size: 20px;
+    font-size: 15px;
     font-style: italic;
+    padding-top: 7px;
   }
 
   p {
@@ -632,4 +633,8 @@ $gradient-end :$white;
   .cont {
   width: 400px;
   margin: 0 auto;
+}
+
+.carous {
+  height:400px;
 }
