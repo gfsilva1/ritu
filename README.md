@@ -1,1 +1,1 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+Brazilian musical genres platform sorted by areas generated with Ruby on Rails, designed by João Vaz (http://vaz.art.br/) and coded by Gtex [https://gtexconsultoria.com.br/].
